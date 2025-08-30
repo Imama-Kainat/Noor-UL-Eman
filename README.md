@@ -1,21 +1,19 @@
-
-
 <p align="center">
-  <img src="assets/logo.png" alt="Noor-Ul-Eman Banner" width="100%"/>
+  <img src="assets/noor_banner.png" alt="Noor-Ul-Eman Banner" width="100%"/>
 </p>
 
-# 🌙 Noor-Ul-Eman  
+# 🌙 Noor-Ul-Eman — Your Complete Islamic Companion  
 
-[![GitHub issues](https://img.shields.io/github/issues/Imama-Kainat/Noor-UL-Eman)](https://github.com/Imama-Kainat/Noor-UL-Eman/issues)  
-[![GitHub forks](https://img.shields.io/github/forks/Imama-Kainat/Noor-UL-Eman)](https://github.com/Imama-Kainat/Noor-UL-Eman/network)  
-[![GitHub stars](https://img.shields.io/github/stars/Imama-Kainat/Noor-UL-Eman)](https://github.com/Imama-Kainat/Noor-UL-Eman/stargazers)  
-[![GitHub license](https://img.shields.io/github/license/Imama-Kainat/Noor-UL-Eman)](./LICENSE)  
+> *“A spiritual companion in your pocket — prayers, Qur’an, azkar, hadith, goals, and a vibrant community, all in one place.”*  
+
+Noor-Ul-Eman is a modern open-source Islamic app built to help Muslims **maintain their daily worship, connect with the Qur’an, set and achieve spiritual goals, and engage with the community.**  
 
 ---
 
 ## 📽️ Demo Video  
-👉 [Watch Demo](Assets/DEMO_VIDEO.mp4)  
+🎥 [Watch Demo ](https://drive.google.com/file/d/18W-aKeELc233X8dbLJOqZDF_uEjq4Lec/view?usp=sharing)  
 
+---
 ---
 
 ## 📖 About the Project  
@@ -125,42 +123,7 @@ Noor-UL-Eman/
 │   └── vite.config.js
 │
 └── docs/           # Documentation & diagrams
-Got it ✅ I’ll give you a **complete professional README in markdown** format with:
 
-* Banner Image
-* Badges
-* Installation & Usage Instructions
-* Demo Video
-* Contributing, License, Authors, and Links
-
-## ⚙️ Installation  
-
-Clone the repository:  
-
-```bash
-git clone https://github.com/Imama-Kainat/Noor-UL-Eman.git
-cd Noor-UL-Eman
-````
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Run locally:
-
-```bash
-npm run dev
-```
-
-Build for production:
-
-```bash
-npm run build
-```
-
----
 
 ## 🚀 Features
 
