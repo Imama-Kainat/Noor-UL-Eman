@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.jpeg" alt="Noor-Ul-Eman Banner" width="100%"/>
+  <img src="Assets/logo.jpeg" alt="Noor-Ul-Eman Banner" width="100%"/>
 </p>
 
 # 🌙 Noor-Ul-Eman — Your Complete Islamic Companion  
