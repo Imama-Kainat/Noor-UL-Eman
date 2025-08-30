@@ -1,204 +1,232 @@
-# Ramadan Flow
+<p align="center">
+  <img src="assets/noor_banner.png" alt="Noor-Ul-Eman Banner" width="100%"/>
+</p>
 
-A comprehensive Islamic application designed to enhance your Ramadan experience and help Muslims maintain their daily religious practices throughout the year. Ramadan Flow helps you track prayers, read Quran, set and achieve Ramadan goals, and connect with the community.
+# 🌙 Noor-Ul-Eman — Your Complete Islamic Companion  
 
-## Features
+> *“A spiritual companion in your pocket — prayers, Qur’an, azkar, hadith, goals, and a vibrant community, all in one place.”*  
 
-### Prayer & Worship
-- Prayer time tracking with location-based calculations
-- Digital Tasbih counter with customizable dhikr
-- Prayer logs and statistics
-- Qibla direction finder
+Noor-Ul-Eman is a modern open-source Islamic app built to help Muslims **maintain their daily worship, connect with the Qur’an, set and achieve spiritual goals, and engage with the community.**  
 
-### Quran Features
-- Complete Quran with translation
-- Bookmark management
-- Juz and Surah navigation
-- Reading progress tracking
-- Search functionality
+---
 
-### Community Features
-- Community chat system
-- Real-time messaging
-- Comments and interactions
-- Activity tracking
-- Event management
+## 📽️ Demo Video  
+🎥 [Watch Demo ](https://drive.google.com/file/d/18W-aKeELc233X8dbLJOqZDF_uEjq4Lec/view?usp=sharing)  
 
-### Personal Development
-- Ramadan goal setting and tracking
-- Daily reflection journal
-- Activity logging
-- Favorite Hadiths collection
+---
 
-## Tech Stack
+## ✨ Core Features  
 
-### Frontend
-- React 18 with Vite
-- TailwindCSS for styling
-- Framer Motion for animations
-- Socket.io for real-time features
-- React Router for navigation
-- Various UI libraries (Headless UI, Hero Icons)
-- MapBox for location features
-- ApexCharts for data visualization
+### 🕌 Prayer & Worship  
+- Accurate **location-based prayer times**  
+- **Prayer logs & analytics** (missed/offered stats)  
+- **Qibla finder** (via MapBox + device compass)  
+- **Digital Tasbih counter** with custom dhikr  
 
-### Backend
-- Node.js with Express
-- MongoDB with Mongoose
-- Socket.io for real-time communication
-- JWT for authentication
-- Google OAuth integration
-- Nodemailer for email services
-- Twilio for SMS features
+### 📖 Qur’an & Hadith  
+- Complete Qur’an with **translations**  
+- **Multiple bookmarks** & progress tracking  
+- Juz and Surah navigation  
+- **Advanced search** (Arabic + translations)  
+- Hadith collection with “Favorite” option  
+- Listen to Qur’an in **6 world-renowned Qari voices**  
 
-## Prerequisites
+### 📚 Duas & Azkar  
+- Personal dua & azkar collections  
+- Export duas as **PDF**  
+- Daily dhikr & goal tracking  
 
-- Node.js (v16 or higher)
-- MongoDB
-- npm or yarn
-- Google OAuth credentials
-- MapBox API key
-- Twilio account (optional)
+### 🌐 Community  
+- Real-time **chat system** (Socket.io)  
+- Community feed with posts, comments, likes  
+- **Event creation & participation** (study circles, iftar, taraweeh, etc.)  
+- Activity tracking & notifications  
 
-## Installation
+### 🎯 Personal Tools  
+- Ramadan & daily goal tracking  
+- **Reflection journal** for daily thoughts  
+- Favorite Hadith & Azkar library  
+- Activity logging & reports  
 
-1. Clone the repository
+---
+
+## 🧩 Tech Stack  
+
+### Frontend  
+- React 18 + Vite  
+- TailwindCSS + Framer Motion  
+- React Router  
+- Socket.io client  
+- MapBox API (Qibla & location)  
+- ApexCharts (data visualizations)  
+
+### Backend  
+- Node.js + Express  
+- MongoDB + Mongoose  
+- Socket.io server (real-time)  
+- Redis (for caching & performance)  
+- JWT + Google OAuth (authentication)  
+- Nodemailer (email) + Twilio SMS (alerts)  
+
+---
+
+## ⚙️ Prerequisites  
+- Node.js (v16 or higher)  
+- MongoDB instance  
+- npm or yarn  
+- Google OAuth credentials  
+- MapBox API key  
+- Twilio account (optional, for SMS)  
+
+---
+
+## 🚀 Installation & Setup  
+
+### 1. Clone the Repository  
 ```bash
-git clone [repository-url]
-cd [project-directory]
-```
-
-2. Install Backend Dependencies
-```bash
+git clone https://github.com/Imama-Kainat/Noor-UL-Eman.git
+cd Noor-UL-Eman
 cd backend
 npm install
-```
+cp .env.example .env   # configure environment variables
+npm run dev
 
-3. Configure Environment Variables
-```bash
-cp .env.example .env
-# Edit .env with your configuration
-```
-
-4. Install Frontend Dependencies
-```bash
 cd ../frontend
 npm install
+cp .env.example .env   # configure environment variables
+npm run dev
+
+cd frontend
+npm run build
+
+cd ../backend
+npm start
+
+Noor-UL-Eman/
+│
+├── backend/        # Express + MongoDB backend
+│   ├── models/     
+│   ├── routes/     
+│   ├── controllers/
+│   └── server.js
+│
+├── frontend/       # React + Vite frontend
+│   ├── src/
+│   ├── public/
+│   └── vite.config.js
+│
+└── docs/           # Documentation & diagrams
+Got it ✅ I’ll give you a **complete professional README in markdown** format with:
+
+* Banner Image
+* Badges
+* Installation & Usage Instructions
+* Demo Video
+* Contributing, License, Authors, and Links
+
+Here’s your polished `README.md`:
+
+````markdown
+<p align="center">
+  <img src="assets/stocastiq_logo.png" alt="Noor-Ul-Eman Banner" width="100%"/>
+</p>
+
+# 🌙 Noor-Ul-Eman  
+
+[![GitHub issues](https://img.shields.io/github/issues/Imama-Kainat/Noor-UL-Eman)](https://github.com/Imama-Kainat/Noor-UL-Eman/issues)  
+[![GitHub forks](https://img.shields.io/github/forks/Imama-Kainat/Noor-UL-Eman)](https://github.com/Imama-Kainat/Noor-UL-Eman/network)  
+[![GitHub stars](https://img.shields.io/github/stars/Imama-Kainat/Noor-UL-Eman)](https://github.com/Imama-Kainat/Noor-UL-Eman/stargazers)  
+[![GitHub license](https://img.shields.io/github/license/Imama-Kainat/Noor-UL-Eman)](./LICENSE)  
+
+---
+
+## 📽️ Demo Video  
+👉 [Watch Demo](Assets/DEMO_VIDEO.mp4)  
+
+---
+
+## 📖 About the Project  
+**Noor-Ul-Eman** is a modern web project aimed at building a **beautiful, scalable, and user-friendly platform**.  
+This repo contains all the source code, documentation, and deployment details.  
+
+---
+
+## ⚙️ Installation  
+
+Clone the repository:  
+
+```bash
+git clone https://github.com/Imama-Kainat/Noor-UL-Eman.git
+cd Noor-UL-Eman
+````
+
+Install dependencies:
+
+```bash
+npm install
 ```
 
-5. Configure Frontend Environment
+Run locally:
+
 ```bash
-cp .env.example .env
-# Edit .env with your configuration
-```
-
-## Running the Application
-
-### Development Mode
-
-1. Start Backend Server
-```bash
-cd backend
 npm run dev
 ```
 
-2. Start Frontend Development Server
-```bash
-cd frontend
-npm run dev
-```
+Build for production:
 
-### Production Mode
-
-1. Build Frontend
 ```bash
-cd frontend
 npm run build
 ```
 
-2. Start Backend Server
-```bash
-cd backend
-npm start
-```
+---
 
-## Environment Variables
+## 🚀 Features
 
-### Backend (.env)
-```
-PORT=5000
-MONGODB_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-GOOGLE_CLIENT_ID=your_google_client_id
-GOOGLE_CLIENT_SECRET=your_google_client_secret
-SMTP_HOST=your_smtp_host
-SMTP_PORT=your_smtp_port
-SMTP_USER=your_smtp_user
-SMTP_PASS=your_smtp_password
-TWILIO_ACCOUNT_SID=your_twilio_sid
-TWILIO_AUTH_TOKEN=your_twilio_token
-```
+* 🎨 Clean & Responsive UI
+* ⚡ Fast & Scalable Codebase
+* 📽️ Demo video for quick walkthrough
+* 🧑‍🤝‍🧑 Collaboration-friendly
 
-### Frontend (.env)
-```
-VITE_API_URL=http://localhost:5000
-VITE_GOOGLE_CLIENT_ID=your_google_client_id
-VITE_MAPBOX_TOKEN=your_mapbox_token
-```
+---
 
-## Features in Detail
+## 🧑‍💻 Contributing
 
-### Prayer System
-- Automatic prayer time calculation based on location
-- Prayer tracking and statistics
-- Customizable prayer notifications
-- Qibla direction finder using device compass
+We ❤️ open source! Want to make **Noor-Ul-Eman** better?
 
-### Quran Interface
-- Complete Quran text with translations
-- Bookmark management
-- Progress tracking
-- Advanced search functionality
-- Juz and Surah navigation
+1. Fork the repo
+2. Create your feature branch
 
-### Community Features
-- Real-time chat system
-- User profiles
-- Activity feed
-- Event creation and management
-- Community engagement features
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. Commit your changes
 
-### Personal Tools
-- Digital Tasbih with custom counters
-- Daily reflection journal
-- Ramadan goal setting
-- Favorite Hadith collection
-- Activity logging and tracking
+   ```bash
+   git commit -m "Add AmazingFeature"
+   ```
+4. Push to your branch
 
-## Contributing
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+5. Open a Pull Request 🎉
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+---
 
-## License
+## 📜 License
 
-This project is licensed under the ISC License - see the LICENSE file for details.
+This project is licensed under the **ISC License** — see the [LICENSE](./LICENSE) file for details.
 
-## Authors
-
-- Zainab Eman 22F-3738
-- Imama Kainat 22F-3661
-- Noor Fatima 22F-3634
+---
 
 
-## Diagrams
 
-### Database Schema
-![Database Schema](docs/images/database-schema.png)
+## 📎 Useful Links
 
-### Application Architecture
-![Application Architecture](docs/images/application-architecture.png)
+* 🔗 [GitHub Repository](https://github.com/Imama-Kainat/Noor-UL-Eman)
+* 📄 Documentation: *Coming soon…*
+* 📽️ [Demo Video](https://drive.google.com/file/d/18W-aKeELc233X8dbLJOqZDF_uEjq4Lec/view?usp=sharing)
+* 💬 Feedback? Suggestions? Bugs? → Open an **issue** or start a **discussion**!
+
+---
 
