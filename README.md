@@ -1,17 +1,26 @@
+
+
 <p align="center">
-  <img src="assets/noor_banner.png" alt="Noor-Ul-Eman Banner" width="100%"/>
+  <img src="assets/logo.png" alt="Noor-Ul-Eman Banner" width="100%"/>
 </p>
 
-# 🌙 Noor-Ul-Eman — Your Complete Islamic Companion  
+# 🌙 Noor-Ul-Eman  
 
-> *“A spiritual companion in your pocket — prayers, Qur’an, azkar, hadith, goals, and a vibrant community, all in one place.”*  
-
-Noor-Ul-Eman is a modern open-source Islamic app built to help Muslims **maintain their daily worship, connect with the Qur’an, set and achieve spiritual goals, and engage with the community.**  
+[![GitHub issues](https://img.shields.io/github/issues/Imama-Kainat/Noor-UL-Eman)](https://github.com/Imama-Kainat/Noor-UL-Eman/issues)  
+[![GitHub forks](https://img.shields.io/github/forks/Imama-Kainat/Noor-UL-Eman)](https://github.com/Imama-Kainat/Noor-UL-Eman/network)  
+[![GitHub stars](https://img.shields.io/github/stars/Imama-Kainat/Noor-UL-Eman)](https://github.com/Imama-Kainat/Noor-UL-Eman/stargazers)  
+[![GitHub license](https://img.shields.io/github/license/Imama-Kainat/Noor-UL-Eman)](./LICENSE)  
 
 ---
 
 ## 📽️ Demo Video  
-🎥 [Watch Demo ](https://drive.google.com/file/d/18W-aKeELc233X8dbLJOqZDF_uEjq4Lec/view?usp=sharing)  
+👉 [Watch Demo](Assets/DEMO_VIDEO.mp4)  
+
+---
+
+## 📖 About the Project  
+**Noor-Ul-Eman** is a modern web project aimed at building a **beautiful, scalable, and user-friendly platform**.  
+This repo contains all the source code, documentation, and deployment details.  
 
 ---
 
@@ -123,33 +132,6 @@ Got it ✅ I’ll give you a **complete professional README in markdown** format
 * Installation & Usage Instructions
 * Demo Video
 * Contributing, License, Authors, and Links
-
-Here’s your polished `README.md`:
-
-````markdown
-<p align="center">
-  <img src="assets/stocastiq_logo.png" alt="Noor-Ul-Eman Banner" width="100%"/>
-</p>
-
-# 🌙 Noor-Ul-Eman  
-
-[![GitHub issues](https://img.shields.io/github/issues/Imama-Kainat/Noor-UL-Eman)](https://github.com/Imama-Kainat/Noor-UL-Eman/issues)  
-[![GitHub forks](https://img.shields.io/github/forks/Imama-Kainat/Noor-UL-Eman)](https://github.com/Imama-Kainat/Noor-UL-Eman/network)  
-[![GitHub stars](https://img.shields.io/github/stars/Imama-Kainat/Noor-UL-Eman)](https://github.com/Imama-Kainat/Noor-UL-Eman/stargazers)  
-[![GitHub license](https://img.shields.io/github/license/Imama-Kainat/Noor-UL-Eman)](./LICENSE)  
-
----
-
-## 📽️ Demo Video  
-👉 [Watch Demo](Assets/DEMO_VIDEO.mp4)  
-
----
-
-## 📖 About the Project  
-**Noor-Ul-Eman** is a modern web project aimed at building a **beautiful, scalable, and user-friendly platform**.  
-This repo contains all the source code, documentation, and deployment details.  
-
----
 
 ## ⚙️ Installation  
 
